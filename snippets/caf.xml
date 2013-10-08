@@ -57,6 +57,8 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="evervolv" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,waipio-vendor" remote="evervolv" />
+  <remove-project name="platform/system/qcom" />
+  <project path="vendor/qcom/opensource/softap" name="android_system_qcom" groups="qcom,sdm660" remote="evervolv" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,waipio-vendor" remote="evervolv" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
