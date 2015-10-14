@@ -21,6 +21,7 @@
     <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
   </project>
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,pdk" remote="evervolv" revision="u-14.2-caf" />
 
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="evervolv" />
