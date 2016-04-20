@@ -8,6 +8,9 @@
   <project path="device/qcom/sepolicy_vndr/sm8550" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" revision="u-14.2-8550" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="android_device_qcom_sepolicy_vndr" groups="pdk" remote="evervolv" revision="u-14.2-legacy-um" />
 
+  <remove-project name="platform/external/json-c" />
+  <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
+
   <project path="hardware/qcom-caf/common" name="android_device_qcom_common" groups="pdk" remote="evervolv" >
     <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
