@@ -21,6 +21,9 @@
   <remove-project name="platform/external/json-c" />
   <project path="external/json-c" name="android_external_json-c" remote="evervolv" />
 
+  <remove-project name="platform/vendor/codeaurora/telephony" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="evervolv" />
+
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils-sys" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils-vendor" />
