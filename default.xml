@@ -22,5 +22,6 @@
   <include name="vendor.xml"/>
   <include name="aosp.xml"/>
   <include name="obsolete.xml"/>
+  <include name="snippets/evervolv.xml"/>
 
 </manifest>
