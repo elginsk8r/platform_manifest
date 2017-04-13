@@ -21,5 +21,7 @@
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
+  <include name="snippets/remove.xml"/>
+  <include name="snippets/aosp.xml"/>
 
 </manifest>

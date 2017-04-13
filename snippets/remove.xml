@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/packages/apps/DevCamera" />
+  <remove-project name="platform/packages/apps/Gallery" />
+  <remove-project name="platform/packages/apps/LegacyCamera" />
+  <remove-project name="platform/packages/apps/Protips" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/apps/SpareParts" />
+
+</manifest>
