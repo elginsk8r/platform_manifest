@@ -2,7 +2,9 @@
 <manifest>
 
   <remove-project name="device/qcom/common" />
-  <project path="device/qcom/common" name="android_device_qcom_common" groups="pdk" remote="evervolv" />
+  <project path="device/qcom/common" name="android_device_qcom_common" groups="pdk" remote="evervolv" >
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+  </project>
 
 </manifest>
 
