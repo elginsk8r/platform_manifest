@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="device/qcom/common" />
+  <project path="device/qcom/common" name="android_device_qcom_common" groups="pdk" remote="evervolv" >
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+  </project>
+
+  <remove-project name="platform/vendor/qcom-opensource/core-utils" />
+  <remove-project name="platform/vendor/qcom-opensource/core-utils-sys" />
+  <remove-project name="platform/vendor/qcom-opensource/core-utils-vendor" />
+
+</manifest>
+
