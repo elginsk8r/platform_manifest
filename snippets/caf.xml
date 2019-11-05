@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="device/qcom/common" />
+  <project path="device/qcom/common" name="android_device_qcom_common" groups="pdk" remote="evervolv" />
+
+</manifest>
+
