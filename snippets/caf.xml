@@ -37,6 +37,8 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="evervolv" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk" remote="evervolv" />
+  <remove-project name="platform/vendor/qcom-opensource/vibrator" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pdk" remote="evervolv" />
 
 </manifest>
 
