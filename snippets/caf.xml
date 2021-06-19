@@ -24,6 +24,7 @@
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="evervolv" />
 
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk" remote="evervolv"/>
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils-sys" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils-vendor" />
