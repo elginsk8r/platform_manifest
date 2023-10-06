@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- AOSP -->
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/"
+           revision="refs/tags/android-platform-14.0.0_r2" />
+
   <!-- CLO -->
   <remote name="clo-la"
           fetch="https://git.codelinaro.org/clo/la"
@@ -11,5 +17,7 @@
 
   <include name="system.xml"/>
   <include name="vendor.xml"/>
+  <include name="aosp.xml"/>
+  <include name="obsolete.xml"/>
 
 </manifest>
