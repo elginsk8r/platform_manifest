@@ -11,5 +11,6 @@
            sync-j="4" />
 
   <include name="system.xml"/>
+  <include name="vendor.xml"/>
 
 </manifest>
